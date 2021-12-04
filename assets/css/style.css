@@ -1,0 +1,96 @@
+:root{
+  --light: #DBFFF6;
+  --red: #7B0034;
+  --dark: #2B2834;
+}
+body{
+  justify-content: space-between;
+  background-color: var(--dark);
+  color: var(--light);
+  font-family: 'Abel', sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.105em;
+
+  height: 95%;
+}
+#titles{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+#titles div{
+  width: 250px;
+  text-align: center;
+}
+
+#logo{
+  position: absolute;
+}
+.centered{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 69%;
+  height:100%;
+}
+.buttons{
+  display: flex;
+  position: fixed;
+  bottom: -10px;
+  background-color: var(--dark);
+  width: 100%;
+  justify-content: center;
+}
+
+button{
+  background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+#name{
+  display: flex;
+  align-items: center;
+  margin-left: 75px;
+  font-size: 72px;
+}
+
+#heading{
+  font-size: 72px;
+  text-align: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+.content .text{
+  margin-top: 24px;
+}
+
+.content img{
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+img{
+  border-radius: 50%;
+}
+#logo:hover, button:hover, .buttons img:hover{
+  opacity: 80%;
+}
