@@ -4,12 +4,12 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
       <title>Adam Abdalla - About</title>
    </head>
    <body>
-     <a href="home.html">
-       <img id = "logo" src = "../assets/img/logo.png"  width = 120 alt = "AA">
+     <a href="index.html">
+       <img id = "logo" src = "assets/img/logo.png"  width = 120 alt = "AA">
      </a>
       <div class = "centered">
         <div id="name">
@@ -17,30 +17,30 @@
             meet
           </div>
           <button type="button" onclick="press_name()">
-              <img id = "name_pic" src="../assets/img/lily.png" width = 400 alt="Lily">
+              <img id = "name_pic" src="assets/img/lily.png" width = 400 alt="Lily">
           </button>
         </div>
         <div class = "content">
-          <img id = "moo1" src="../assets/img/moo1.jpg" width = 400 alt="Lily">
+          <img id = "moo1" src="assets/img/moo1.jpg" width = 400 alt="Lily">
           <div id = "descript1">
             Lily is a 12 year old American shorthair. She is Adam’s first pet.
             Lily is a very sweet kitty who loves to cuddle, especially at 4 in the
             morning.
           </div>
-          <img id = "moo2" src="../assets/img/moo2.jpg" width = 400 alt="Lily">
+          <img id = "moo2" src="assets/img/moo2.jpg" width = 400 alt="Lily">
           <div id = "descript2">
             She also occasionally craves violence and will chase Adam down the
             hallway at 30 mph.
             So cute!
           </div>
-          <img id = "moo3" src="../assets/img/moo3.jpg" width = 400 alt="Lily">
+          <img id = "moo3" src="assets/img/moo3.jpg" width = 400 alt="Lily">
         </div>
         <div class = "buttons">
            <a href="about.html">
-           <img id = "about_red" src = "../assets/img/about_red.png"  width = 244 alt = "about">
+           <img id = "about_red" src = "assets/img/about_red.png"  width = 244 alt = "about">
            </a>
            <a href="cats.html">
-           <img id = "cats_red" src = "../assets/img/cats_blue.png"  width = 244 alt = "cats">
+           <img id = "cats_red" src = "assets/img/cats_blue.png"  width = 244 alt = "cats">
            </a>
         </div>
       </div>
@@ -49,17 +49,17 @@
       var cat_switch = true;
       const press_name = function(){
         if (cat_switch) {
-          document.getElementById('name_pic').src = "../assets/img/harley.png"
-          document.getElementById('moo1').src = "../assets/img/minna1.jpg"
-          document.getElementById('moo2').src = "../assets/img/minna2.jpg"
-          document.getElementById('moo3').src = "../assets/img/minna3.jpg"
+          document.getElementById('name_pic').src = "assets/img/harley.png"
+          document.getElementById('moo1').src = "assets/img/minna1.jpg"
+          document.getElementById('moo2').src = "assets/img/minna2.jpg"
+          document.getElementById('moo3').src = "assets/img/minna3.jpg"
           document.getElementById('descript1').innerHTML = "Harley is a 7 year old American shorthair. She is a very small cat, so Adam calls her a permakitten. Like her older sister, Harley loves cuddles and is famous for her biscuit making technique."
           document.getElementById('descript2').innerHTML = "Unlike Lily, Harley would never hurt Adam physically; instead she uses emotional manipulation and her very potent screams to get her kicks."
         } else {
-          document.getElementById('name_pic').src = "../assets/img/lily.png"
-          document.getElementById('moo1').src = "../assets/img/moo1.jpg"
-          document.getElementById('moo2').src = "../assets/img/moo2.jpg"
-          document.getElementById('moo3').src = "../assets/img/moo3.jpg"
+          document.getElementById('name_pic').src = "assets/img/lily.png"
+          document.getElementById('moo1').src = "assets/img/moo1.jpg"
+          document.getElementById('moo2').src = "assets/img/moo2.jpg"
+          document.getElementById('moo3').src = "assets/img/moo3.jpg"
           document.getElementById('descript1').innerHTML = "Lily is a 12 year old American shorthair. She is Adam’s first pet. Lily is a very sweet kitty who loves to cuddle, especially at 4 in the morning."
           document.getElementById('descript2').innerHTML = "She also occasionally craves violence and will chase Adam down thehallway at 30 mph.So cute!"
         }
